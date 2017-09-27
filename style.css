@@ -1,0 +1,39 @@
+body {
+    padding-bottom: 50px;
+}
+#new_person{
+    float: left;
+}
+#personLib th{
+    background-color: #4CAF50;
+    color: white;
+    width: 12%;
+}
+#personLib tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+/* FOOTER */
+footer {
+    margin: 0;
+    padding: 18px 0;
+    background: rgb(10,10,10);
+    line-height: 14px;
+    color: #9d9d9d;
+}
+.btn {
+    height: 35px;
+}
+#new_person{
+    position: fixed;
+    border: 1px solid #dc6868;
+    top: 125px;
+    left: 480px;
+    background: #fba634;
+}
+#new_person_edit{
+    position: fixed;
+    border: 1px solid #dc6868;
+    top: 125px;
+    left: 480px;
+    background: #9ffb60;
+}
